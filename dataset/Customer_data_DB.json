@@ -1,0 +1,13 @@
+{
+	"name": "Customer_data_DB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Connect_SQL_DB_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

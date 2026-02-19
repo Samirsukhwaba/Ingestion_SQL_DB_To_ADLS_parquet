@@ -1,0 +1,9 @@
+{
+	"name": "DB2CloudPipeline",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6a6a3812-ad76-4c6e-a0a2-511e23700745",
+		"tenantId": "18b09e13-62c5-4e2d-a36d-1896fe2a880a"
+	}
+}
