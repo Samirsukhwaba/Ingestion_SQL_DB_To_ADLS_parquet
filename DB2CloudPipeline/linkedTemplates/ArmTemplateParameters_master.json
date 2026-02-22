@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DB2CloudPipeline"
+		},
+		"Connect_SQL_DB_LS_password": {
+			"value": ""
+		},
+		"Connect_parquet_DS_LS_accountKey": {
+			"value": ""
+		},
+		"Connect_SQL_DB_LS_properties_typeProperties_server": {
+			"value": "sukhwaba.database.windows.net"
+		},
+		"Connect_SQL_DB_LS_properties_typeProperties_database": {
+			"value": "AzureDB"
+		},
+		"Connect_SQL_DB_LS_properties_typeProperties_userName": {
+			"value": "sukhwaba"
+		},
+		"Connect_parquet_DS_LS_properties_typeProperties_url": {
+			"value": "https://bronzestagestorage.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
