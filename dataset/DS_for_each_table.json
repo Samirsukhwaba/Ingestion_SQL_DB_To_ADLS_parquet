@@ -1,0 +1,12 @@
+{
+	"name": "DS_for_each_table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Connect_SQL_DB_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
